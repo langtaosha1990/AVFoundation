@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30C25D529E9806E00184D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C25D429E9806E00184D04 /* AppDelegate.swift */; };
+		F30C25D729E9806E00184D04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C25D629E9806E00184D04 /* SceneDelegate.swift */; };
+		F30C25D929E9806E00184D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C25D829E9806E00184D04 /* ViewController.swift */; };
+		F30C25DC29E9806E00184D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30C25DA29E9806E00184D04 /* Main.storyboard */; };
+		F30C25DE29E9807000184D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30C25DD29E9807000184D04 /* Assets.xcassets */; };
+		F30C25E129E9807000184D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30C25DF29E9807000184D04 /* LaunchScreen.storyboard */; };
+		F30C25E929ECE82300184D04 /* TimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30C25E829ECE82300184D04 /* TimeLine.swift */; };
+		F30C25F729ECEDB900184D04 /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30C25EC29ECEDB900184D04 /* 02 Keep Going.m4a */; };
+		F30C25F829ECEDB900184D04 /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30C25ED29ECEDB900184D04 /* 01 Star Gazing.m4a */; };
+		F30C25F929ECEDB900184D04 /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30C25EF29ECEDB900184D04 /* John F. Kennedy.m4a */; };
+		F30C25FA29ECEDB900184D04 /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F029ECEDB900184D04 /* Ronald Reagan.m4a */; };
+		F30C25FB29ECEDB900184D04 /* 01_nebula.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F229ECEDB900184D04 /* 01_nebula.mp4 */; };
+		F30C25FC29ECEDB900184D04 /* 03_nebula.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F329ECEDB900184D04 /* 03_nebula.mp4 */; };
+		F30C25FD29ECEDB900184D04 /* 04_quasar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F429ECEDB900184D04 /* 04_quasar.mp4 */; };
+		F30C25FE29ECEDB900184D04 /* 02_blackhole.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F529ECEDB900184D04 /* 02_blackhole.mp4 */; };
+		F30C25FF29ECEDB900184D04 /* 05_blackhole.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F30C25F629ECEDB900184D04 /* 05_blackhole.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F30C25D129E9806E00184D04 /* VideoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30C25D429E9806E00184D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30C25D629E9806E00184D04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F30C25D829E9806E00184D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F30C25DB29E9806E00184D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30C25DD29E9807000184D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30C25E029E9807000184D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30C25E229E9807000184D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30C25E829ECE82300184D04 /* TimeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLine.swift; sourceTree = "<group>"; };
+		F30C25EC29ECEDB900184D04 /* 02 Keep Going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 Keep Going.m4a"; sourceTree = "<group>"; };
+		F30C25ED29ECEDB900184D04 /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
+		F30C25EF29ECEDB900184D04 /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "John F. Kennedy.m4a"; sourceTree = "<group>"; };
+		F30C25F029ECEDB900184D04 /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ronald Reagan.m4a"; sourceTree = "<group>"; };
+		F30C25F229ECEDB900184D04 /* 01_nebula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01_nebula.mp4; sourceTree = "<group>"; };
+		F30C25F329ECEDB900184D04 /* 03_nebula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03_nebula.mp4; sourceTree = "<group>"; };
+		F30C25F429ECEDB900184D04 /* 04_quasar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04_quasar.mp4; sourceTree = "<group>"; };
+		F30C25F529ECEDB900184D04 /* 02_blackhole.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02_blackhole.mp4; sourceTree = "<group>"; };
+		F30C25F629ECEDB900184D04 /* 05_blackhole.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 05_blackhole.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30C25CE29E9806E00184D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30C25C829E9806E00184D04 = {
+			isa = PBXGroup;
+			children = (
+				F30C25D329E9806E00184D04 /* VideoEdit */,
+				F30C25D229E9806E00184D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30C25D229E9806E00184D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25D129E9806E00184D04 /* VideoEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30C25D329E9806E00184D04 /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25D429E9806E00184D04 /* AppDelegate.swift */,
+				F30C25D629E9806E00184D04 /* SceneDelegate.swift */,
+				F30C25D829E9806E00184D04 /* ViewController.swift */,
+				F30C25E829ECE82300184D04 /* TimeLine.swift */,
+				F30C25EA29ECEDB900184D04 /* Audio */,
+				F30C25F129ECEDB900184D04 /* Video */,
+				F30C25DA29E9806E00184D04 /* Main.storyboard */,
+				F30C25DD29E9807000184D04 /* Assets.xcassets */,
+				F30C25DF29E9807000184D04 /* LaunchScreen.storyboard */,
+				F30C25E229E9807000184D04 /* Info.plist */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
+		F30C25EA29ECEDB900184D04 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25EB29ECEDB900184D04 /* Music */,
+				F30C25EE29ECEDB900184D04 /* VoiceOvers */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F30C25EB29ECEDB900184D04 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25EC29ECEDB900184D04 /* 02 Keep Going.m4a */,
+				F30C25ED29ECEDB900184D04 /* 01 Star Gazing.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		F30C25EE29ECEDB900184D04 /* VoiceOvers */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25EF29ECEDB900184D04 /* John F. Kennedy.m4a */,
+				F30C25F029ECEDB900184D04 /* Ronald Reagan.m4a */,
+			);
+			path = VoiceOvers;
+			sourceTree = "<group>";
+		};
+		F30C25F129ECEDB900184D04 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				F30C25F229ECEDB900184D04 /* 01_nebula.mp4 */,
+				F30C25F329ECEDB900184D04 /* 03_nebula.mp4 */,
+				F30C25F429ECEDB900184D04 /* 04_quasar.mp4 */,
+				F30C25F529ECEDB900184D04 /* 02_blackhole.mp4 */,
+				F30C25F629ECEDB900184D04 /* 05_blackhole.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30C25D029E9806E00184D04 /* VideoEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30C25E529E9807000184D04 /* Build configuration list for PBXNativeTarget "VideoEdit" */;
+			buildPhases = (
+				F30C25CD29E9806E00184D04 /* Sources */,
+				F30C25CE29E9806E00184D04 /* Frameworks */,
+				F30C25CF29E9806E00184D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoEdit;
+			productName = VideoEdit;
+			productReference = F30C25D129E9806E00184D04 /* VideoEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30C25C929E9806E00184D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F30C25D029E9806E00184D04 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F30C25CC29E9806E00184D04 /* Build configuration list for PBXProject "VideoEdit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30C25C829E9806E00184D04;
+			productRefGroup = F30C25D229E9806E00184D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30C25D029E9806E00184D04 /* VideoEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30C25CF29E9806E00184D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30C25F929ECEDB900184D04 /* John F. Kennedy.m4a in Resources */,
+				F30C25FA29ECEDB900184D04 /* Ronald Reagan.m4a in Resources */,
+				F30C25F729ECEDB900184D04 /* 02 Keep Going.m4a in Resources */,
+				F30C25FB29ECEDB900184D04 /* 01_nebula.mp4 in Resources */,
+				F30C25FD29ECEDB900184D04 /* 04_quasar.mp4 in Resources */,
+				F30C25F829ECEDB900184D04 /* 01 Star Gazing.m4a in Resources */,
+				F30C25E129E9807000184D04 /* LaunchScreen.storyboard in Resources */,
+				F30C25DE29E9807000184D04 /* Assets.xcassets in Resources */,
+				F30C25FF29ECEDB900184D04 /* 05_blackhole.mp4 in Resources */,
+				F30C25FE29ECEDB900184D04 /* 02_blackhole.mp4 in Resources */,
+				F30C25FC29ECEDB900184D04 /* 03_nebula.mp4 in Resources */,
+				F30C25DC29E9806E00184D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30C25CD29E9806E00184D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30C25E929ECE82300184D04 /* TimeLine.swift in Sources */,
+				F30C25D929E9806E00184D04 /* ViewController.swift in Sources */,
+				F30C25D529E9806E00184D04 /* AppDelegate.swift in Sources */,
+				F30C25D729E9806E00184D04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F30C25DA29E9806E00184D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30C25DB29E9806E00184D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30C25DF29E9807000184D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30C25E029E9807000184D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30C25E329E9807000184D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F30C25E429E9807000184D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30C25E629E9807000184D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoEdit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F30C25E729E9807000184D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoEdit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30C25CC29E9806E00184D04 /* Build configuration list for PBXProject "VideoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30C25E329E9807000184D04 /* Debug */,
+				F30C25E429E9807000184D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30C25E529E9807000184D04 /* Build configuration list for PBXNativeTarget "VideoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30C25E629E9807000184D04 /* Debug */,
+				F30C25E729E9807000184D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30C25C929E9806E00184D04 /* Project object */;
+}
